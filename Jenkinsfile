@@ -10,7 +10,7 @@ pipeline{
                 
                 script{
                     
-                    git branch: 'main', url: 'https://github.com/vikash-kumar01/mrdevops_javaapplication.git'
+                    git branch: 'main', credentialsId: 'git_credential', url: 'https://github.com/kumaryadav989/demo-counter-app.git'
                 }
             }
         }
